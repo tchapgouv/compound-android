@@ -26,7 +26,7 @@ import org.robolectric.annotation.GraphicsMode
 
 @RunWith(AndroidJUnit4::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-class CompoundIconTests {
+class CompoundIconTest {
     @Test
     @Config(sdk = [35], qualifiers = "w1024dp-h2048dp")
     fun screenshots() {

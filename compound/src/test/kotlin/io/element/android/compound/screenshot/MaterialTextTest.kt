@@ -18,7 +18,7 @@ import org.robolectric.annotation.GraphicsMode
 
 @RunWith(AndroidJUnit4::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-class MaterialTextTests {
+class MaterialTextTest {
     @Test
     @Config(sdk = [35], qualifiers = "w480dp-h1200dp-xxhdpi")
     fun screenshots() {

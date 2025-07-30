@@ -31,7 +31,7 @@ import org.robolectric.annotation.GraphicsMode
 
 @RunWith(AndroidJUnit4::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-class SemanticColorsTests {
+class SemanticColorsTest {
     @Config(sdk = [35], qualifiers = "h2500dp-xhdpi")
     @Test
     fun screenshots() {

@@ -32,7 +32,7 @@ import org.robolectric.annotation.GraphicsMode
 
 @RunWith(AndroidJUnit4::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-class MaterialColorSchemeTests {
+class MaterialColorSchemeTest {
     @Test
     @Config(sdk = [35], qualifiers = "h2048dp-xhdpi")
     fun screenshots() {

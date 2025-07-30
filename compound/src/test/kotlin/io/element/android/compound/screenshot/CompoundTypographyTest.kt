@@ -26,7 +26,7 @@ import org.robolectric.annotation.GraphicsMode
 
 @RunWith(AndroidJUnit4::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-class CompoundTypographyTests {
+class CompoundTypographyTest {
     @Test
     @Config(sdk = [35], qualifiers = "h2048dp-xxhdpi")
     fun screenshots() {

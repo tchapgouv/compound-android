@@ -32,7 +32,7 @@ import org.robolectric.annotation.GraphicsMode
 
 @RunWith(AndroidJUnit4::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
-class LegacyColorsTests {
+class LegacyColorsTest {
     @Test
     @Config(sdk = [35], qualifiers = "xxhdpi")
     fun screenshots() {
